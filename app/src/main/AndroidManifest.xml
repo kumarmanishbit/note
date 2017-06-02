@@ -25,6 +25,7 @@
         <activity
             android:name=".EditorActivity"
             android:label="@string/title_activity_editor"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustPan"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
